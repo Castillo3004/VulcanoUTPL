@@ -1,0 +1,18 @@
+.container{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.datos{
+    float: left;
+}
+
+.img_google{
+    height: 20px;
+}
+
+#but2{
+    color:white
+}
