@@ -14,6 +14,7 @@ import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FormsModule } from '@angular/forms';
 import { environment } from 'src/environments/environment';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 
 @NgModule({
@@ -21,7 +22,8 @@ import { environment } from 'src/environments/environment';
     AppComponent,
     AdminComponent,
     EventsComponent,
-    LoginComponent
+    LoginComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,

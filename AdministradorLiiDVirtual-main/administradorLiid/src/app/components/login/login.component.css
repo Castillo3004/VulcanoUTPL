@@ -16,3 +16,37 @@
 #but2{
     color:white
 }
+
+.footer{
+position: absolute;
+left: 0%;
+right: 0%;
+top: 96%;
+bottom: 0%;
+background: #003F72;
+color: white;   
+padding-left: 5em;
+padding-top: 3px;
+border-top: 2px solid #FF992D;
+}
+
+.header{
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 93%;
+background: #003F72;
+color: white;       
+padding-left: 5em;
+padding-top: 5px;
+border-bottom: 2px solid #FF992D;
+}
+
+.fb, .tw, .yt, .ig {
+    position: relative;
+    left: 97%;
+    width: 2%;
+    height: auto;
+}
+
